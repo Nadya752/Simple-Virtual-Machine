@@ -1,0 +1,4 @@
+FUNC LABEL 0
+    ADD VAL 1 VAL 2
+    PRINT VAL 1
+    RET

@@ -1,0 +1,21 @@
+Test 1 – Positive case: testing op code MOV 1.
+Test 2 – Positive case: testing op code MOV 2.
+Test 3 – Positive case: testing op code MOV 3.
+Test 4 – Negative case: invalid move value to value.
+Test 5 – Positive case: testing op code REF 1.
+Test 6 – Positive case: testing op code REF 2.
+Test 7 – Negative case: invalid referencing a register and a value.
+Test 8 – Positive case: testing op code ADD 1.
+Test 9 – Negative case: invalid adding stack to a stack.
+Test 10 – Negative case: invalid adding value to a value.
+Test 11 – Positive case: testing op code CAL 1 (calling many functions).
+Test 12 – Positive case: testing op code CAL 2 (calling many functions).
+Test 13 – Edge case: there is a schedule right on time with the input in a list of reversed schedules.
+Test 14 – Positive case: testing op codes RET and EQU (if statements and jumping).
+Test 15 – Positive case: testing op code NOT where register has non-zero value.
+Test 16 – Positive case: testing op code NOT where register has zero value.
+Test 17 – Positive case: testing all op codes at once.
+Test 18 – Negative case: some functions have the same label.
+Test 19 – Negative case: calling a non-existent function.
+Test 20 – Negative case: no function label 0.
+Test 21 – Negative case: no return.

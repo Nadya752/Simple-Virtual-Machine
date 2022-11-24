@@ -1,0 +1,11 @@
+FUNC LABEL 0
+    MOV STK A VAL 6
+    MOV REG 0 VAL 7 -
+    MOV STK B STK A
+    PRINT STK B 
+    MOV STK B VAL 0 
+    MOV STK A PTR B 
+    PRINT STK A
+    MOV STK A REG 0
+    PRINT STK A
+    RET
